@@ -8,7 +8,7 @@ packages:
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
 services:
-- serviceName: project.testdocissue.integrations:test1
+- serviceName: project.testdocissue.integrations:ttttt
   packages:
   - name: TestDocIssueProject
     version: "1.0"
