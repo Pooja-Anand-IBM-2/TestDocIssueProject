@@ -12,3 +12,7 @@ services:
   packages:
   - name: TestDocIssueProject
     version: "1.0"
+- serviceName: project.testdocissue.integrations:test1
+  packages:
+  - name: TestDocIssueProject
+    version: "1.0"
