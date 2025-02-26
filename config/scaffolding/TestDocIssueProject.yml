@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/Pooja-Anand-IBM-2
   gitUsername: Pooja-Anand-IBM-2
   gitBranch: main
+- name: EmployeePayroll
+  gitServerName: test
+  gitUrl: https://github.com/rahul-singh-IBM-68
+  gitUsername: Pooja-Anand-IBM-2
+  gitBranch: main
 services:
 - serviceName: project.testdocissue.integrations:FLOW_7046
   packages:
