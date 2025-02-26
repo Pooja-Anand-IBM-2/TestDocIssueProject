@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1740589455847</number>
         <value name="lastModifiedBy">poan</value>
         <value name="lastModifiedByUserId">cc0c9af801274fc698d97ae97b32851c</value>
-        <number name="lastModifiedDate" type="Long">1740589455867</number>
+        <number name="lastModifiedDate" type="Long">1740589463626</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,17 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">dbd0041c5b1640ccb87d2fec6943eaab</value>
+    <value name="schemaDomain">bc72fe836b8b407cab2fec1512441e63</value>
     <value name="originURI">update_wo1.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">coord:update</value>
         <value name="field_type">record</value>
@@ -40,6 +46,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">field</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">@coord:target</value>
             <value name="field_type">string</value>
@@ -63,6 +74,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:createifnotexists</value>
             <value name="field_type">record</value>
@@ -115,6 +131,12 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_useglobalid</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:useglobalid</value>
             <value name="field_type">recref</value>
@@ -126,11 +148,16 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_useglobalid</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_useglobalid</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:woid</value>
             <value name="field_type">string</value>
@@ -154,6 +181,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:companyid</value>
             <value name="field_type">string</value>
@@ -177,6 +209,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:newcompanyid</value>
             <value name="field_type">string</value>
@@ -201,6 +238,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:woworkflow</value>
             <value name="field_type">string</value>
@@ -225,6 +267,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:wotype</value>
             <value name="field_type">string</value>
@@ -249,6 +296,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:title</value>
             <value name="field_type">string</value>
@@ -273,6 +325,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:description</value>
             <value name="field_type">string</value>
@@ -297,6 +354,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:wogroup</value>
             <value name="field_type">string</value>
@@ -321,6 +383,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:priority</value>
             <value name="field_type">record</value>
@@ -373,6 +440,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:resgroup</value>
             <value name="field_type">string</value>
@@ -397,6 +469,12 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_startafter</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:startafter</value>
             <value name="field_type">recref</value>
@@ -408,11 +486,17 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_startafter</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_startafter</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_endbefore</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:endbefore</value>
             <value name="field_type">recref</value>
@@ -424,11 +508,17 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_endbefore</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_endbefore</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promstart</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:promstart</value>
             <value name="field_type">recref</value>
@@ -440,11 +530,17 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_promstart</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promstart</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promend</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:promend</value>
             <value name="field_type">recref</value>
@@ -456,11 +552,17 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_promend</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promend</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_reportdefs</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:reportdefs</value>
             <value name="field_type">recref</value>
@@ -472,11 +574,16 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_reportdefs</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_reportdefs</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:woreportdefs</value>
             <value name="field_type">record</value>
@@ -541,6 +648,12 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_location</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:location</value>
             <value name="field_type">recref</value>
@@ -552,11 +665,16 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_location</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_location</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:workitem</value>
             <value name="field_type">record</value>
@@ -813,6 +931,7 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_startafter</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:startafter</value>
                 <value name="field_type">recref</value>
@@ -824,11 +943,12 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_startafter</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_startafter</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_endbefore</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:endbefore</value>
                 <value name="field_type">recref</value>
@@ -840,11 +960,12 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_endbefore</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_endbefore</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promstart</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:promstart</value>
                 <value name="field_type">recref</value>
@@ -856,11 +977,12 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_promstart</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promstart</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promend</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:promend</value>
                 <value name="field_type">recref</value>
@@ -872,7 +994,7 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_promend</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_promend</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">field</value>
@@ -1153,6 +1275,7 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_reportdefs</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:reportdefs</value>
                 <value name="field_type">recref</value>
@@ -1164,7 +1287,7 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_reportdefs</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_reportdefs</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
@@ -1233,6 +1356,7 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_location</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:location</value>
                 <value name="field_type">recref</value>
@@ -1244,11 +1368,12 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_location</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_location</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_addcustomxml</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:addcustomxml</value>
                 <value name="field_type">recref</value>
@@ -1261,11 +1386,12 @@
                 <value name="is_soap_array_encoding_used">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_addcustomxml</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_addcustomxml</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_updatecustomxml</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:updatecustomxml</value>
                 <value name="field_type">recref</value>
@@ -1278,11 +1404,12 @@
                 <value name="is_soap_array_encoding_used">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_updatecustomxml</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_updatecustomxml</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_removecustomxml</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:removecustomxml</value>
                 <value name="field_type">recref</value>
@@ -1295,11 +1422,12 @@
                 <value name="is_soap_array_encoding_used">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_removecustomxml</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_removecustomxml</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_data</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:data</value>
                 <value name="field_type">recref</value>
@@ -1311,7 +1439,7 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_data</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_data</value>
               </record>
             </array>
             <value name="rec_closed">true</value>
@@ -1320,6 +1448,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:note</value>
             <value name="field_type">record</value>
@@ -1453,6 +1586,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:createassignmentdata</value>
             <value name="field_type">record</value>
@@ -1490,6 +1628,7 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_useglobalid</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:useglobalid</value>
                 <value name="field_type">recref</value>
@@ -1501,7 +1640,7 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_useglobalid</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_useglobalid</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">field</value>
@@ -1598,6 +1737,7 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_starttime</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:starttime</value>
                 <value name="field_type">recref</value>
@@ -1609,11 +1749,12 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_starttime</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_starttime</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_stoptime</value>
                 <value name="is_public">false</value>
                 <value name="field_name">coord:stoptime</value>
                 <value name="field_type">recref</value>
@@ -1625,7 +1766,7 @@
                 <value name="is_global">false</value>
                 <value name="rec_closed">true</value>
                 <value name="modifiable">true</value>
-                <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_stoptime</value>
+                <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_stoptime</value>
               </record>
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
@@ -1644,6 +1785,7 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_starttime</value>
                     <value name="is_public">false</value>
                     <value name="field_name">coord:starttime</value>
                     <value name="field_type">recref</value>
@@ -1654,11 +1796,12 @@
                     <value name="is_global">false</value>
                     <value name="rec_closed">true</value>
                     <value name="modifiable">true</value>
-                    <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_starttime</value>
+                    <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_starttime</value>
                   </record>
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_stoptime</value>
                     <value name="is_public">false</value>
                     <value name="field_name">coord:stoptime</value>
                     <value name="field_type">recref</value>
@@ -1669,7 +1812,7 @@
                     <value name="is_global">false</value>
                     <value name="rec_closed">true</value>
                     <value name="modifiable">true</value>
-                    <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_stoptime</value>
+                    <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_stoptime</value>
                   </record>
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
@@ -1860,6 +2003,12 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_addcustomxml</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:addcustomxml</value>
             <value name="field_type">recref</value>
@@ -1872,11 +2021,17 @@
             <value name="is_soap_array_encoding_used">false</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_addcustomxml</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_addcustomxml</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_updatecustomxml</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:updatecustomxml</value>
             <value name="field_type">recref</value>
@@ -1889,11 +2044,17 @@
             <value name="is_soap_array_encoding_used">false</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_updatecustomxml</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_updatecustomxml</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_removecustomxml</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:removecustomxml</value>
             <value name="field_type">recref</value>
@@ -1906,11 +2067,17 @@
             <value name="is_soap_array_encoding_used">false</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_removecustomxml</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_removecustomxml</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <value name="node_nsName">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_data</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:data</value>
             <value name="field_type">recref</value>
@@ -1922,11 +2089,16 @@
             <value name="is_global">true</value>
             <value name="rec_closed">true</value>
             <value name="modifiable">true</value>
-            <value name="rec_ref">project.testdocissue.documenttypes:docType_coord_data</value>
+            <value name="rec_ref">fld_2041028534_stage00.projects.fl71fa97a4a24f1760425935.documenttypes:docType_coord_data</value>
           </record>
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:attachments</value>
             <value name="field_type">record</value>
@@ -2052,6 +2224,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:removeattachments</value>
             <value name="field_type">record</value>
@@ -2116,6 +2293,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">coord:event</value>
             <value name="field_type">record</value>
